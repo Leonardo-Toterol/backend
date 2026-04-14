@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task6\\Task6.csproj",
-      "projectName": "Task6",
-      "projectPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task6\\Task6.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task7Exercicios\\Task7Exercicios.csproj",
+      "projectName": "Task7Exercicios",
+      "projectPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task7Exercicios\\Task7Exercicios.csproj",
       "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task6\\obj\\",
+      "outputPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\Task7Exercicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
