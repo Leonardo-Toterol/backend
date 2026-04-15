@@ -1,4 +1,6 @@
-﻿class Exercicios
+﻿using System.Runtime.InteropServices;
+
+class Exercicios
 {
     public static void Exercicio1()
     {
@@ -97,6 +99,7 @@ Console.WriteLine($"Existem {numeros_par} números par e {numeros_impar} número
     }
 
     public static void Exercicios6()
+    
     {
        /* Crie um programa de lista de compras usando List<string>. O programa deve:
 
@@ -153,6 +156,168 @@ Boolean ativo = false;
 
         }
 
+    }
+
+    public static void Exercicios7()
+    {
+        /*Crie uma List<int> com 10 números variados (positivos e negativos). 
+        Em seguida, crie duas novas listas: uma apenas com os positivos e outra apenas com os negativos.*/
+
+        List<int> real = new List<int>{1, -4, 7, -2, 5, -3, 8, -9, 10, -6};
+        List<int> positivos = new List<int>{};
+        List<int> negativos = new List<int>{};
+
+        for(int i = 0; i < real.Count; i++)
+        {
+            if (real[i] > 0)
+            {
+                positivos.Add(real[i]);
+            }
+            else
+            {
+                negativos.Add(real[i]);
+            }
+        }
+        System.Console.WriteLine("Os números positivos são:");
+        for (int i = 0; i < positivos.Count; i++)
+        {
+            System.Console.WriteLine(positivos[i]);
+        }
+
+        System.Console.WriteLine("Os números negativos são: ");
+        for (int i = 0; i < negativos.Count; i++)
+        {
+            System.Console.WriteLine(negativos[i]);
+        }
+    }
+
+    public static void Exercicios8()
+    {
+        /*Crie uma nova lista que contenha apenas os nomes sem repetição. Não use Distinct() — faça a lógica manualmente com Contains().*/
+
+        List<string> nomes = new List<string>{ "Ana", "Carlos", "Ana", "Beatriz", "Carlos", "Diana", "Ana" };
+
+        List<String> naoDuplicado = new List<string>{};
+
+        for (int i = 0; i < nomes.Count; i++)
+        {
+            if (!naoDuplicado.Contains(nomes[i]))
+            {
+                naoDuplicado.Add(nomes[i]);
+            }
+        }
+        foreach (var item in naoDuplicado)
+        {
+            System.Console.WriteLine(item);
+        }
+    }
+
+    public static void Exercicios9()
+    {
+        /*Crie uma List<string> para armazenar nomes de alunos. Faça um menu interativo no console:*/
+
+        List<String> alunos = new List<string>{};
+        Boolean ativo = false;
+
+        do{
+            System.Console.WriteLine("\n    Ulbra\n1° Adicionar aluno\n2° Remover aluno\n3° Listar alunos\n4° Buscar aluno por nome\n5° Sair\n");
+            int r = int.Parse(System.Console.ReadLine());
+
+            switch (r)
+            {
+                case 1:
+                Console.Clear();
+                System.Console.WriteLine("Digite o nome do aluno para adicionar: ");
+                String aluno = Console.ReadLine();
+                alunos.Add(aluno);
+                break;
+
+                case 2:
+                Console.Clear();
+                System.Console.WriteLine("Digite o nome do aluno para remover: ");
+                aluno = Console.ReadLine();
+                alunos.Remove(aluno);
+                break;
+
+                case 3:
+                Console.Clear();
+                System.Console.WriteLine("Os alunos atuais são: ");
+                foreach (var item in alunos)
+                {
+                    System.Console.WriteLine(item);
+                }
+                break;
+
+                case 4:
+                Console.Clear();
+                System.Console.WriteLine("Digite o nome do aluno para buscar: ");
+                aluno = Console.ReadLine();
+                Boolean encontrado = false;
+
+                foreach (var item in alunos)
+                {
+                    if (item == aluno)
+                        {
+                            System.Console.WriteLine($"O aluno {aluno} está matriculado.");
+                            encontrado = true;
+                        }
+                }
+                if (encontrado == false)
+                        {
+                            System.Console.WriteLine($"O aluno {aluno} não está matriculado.");
+                        }
+                break;
+
+                case 5:
+                Console.Clear();
+                System.Console.WriteLine("Fechando o sistema...");
+                ativo = false;
+                break;
+
+                default:
+                    System.Console.WriteLine("Opção inválida, tente novamente.");
+                    break;   
+            }  
+        } while (!ativo);
+    }
+
+    public static void Exercicios10()
+    {
+        /*Crie uma List<int> com 8 números desordenados. Faça o seguinte:
+
+Exiba a lista original
+Ordene com Sort()
+Exiba a lista ordenada
+Peça ao usuário um número e use IndexOf() para informar a posição dele, ou dizer que não existe na lista*/
+
+    List<int> numeros = new List<int>{4, 7, 2, 5, 12, 22, 8, 6};
+
+    System.Console.WriteLine("a lista original é: ");
+    foreach (var item in numeros)
+    {
+        System.Console.Write(item + " ");
+    }
+    System.Console.WriteLine();
+    numeros.Sort();
+
+    System.Console.WriteLine("a lista ordenada é: ");
+    foreach (var item in numeros)
+    {
+        System.Console.Write(item + " ");
+    }
+    System.Console.WriteLine();
+    System.Console.WriteLine("Digite o número para procurar: ");
+    int numeroEscolhido = int.Parse(Console.ReadLine());
+    int index = numeros.IndexOf(numeroEscolhido);
+
+    if (numeros.Contains(numeroEscolhido))
+    {
+        System.Console.WriteLine($"A posição do número {numeroEscolhido} na lista é {index}.");
+    }
+    else
+        {
+            System.Console.WriteLine("O número não existe na lista.");
+        }
     }
 }
 

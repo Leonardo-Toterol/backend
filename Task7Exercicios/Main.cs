@@ -1,1 +1,1 @@
-Exercicios.Exercicios6();
+Exercicios.Exercicios10();
