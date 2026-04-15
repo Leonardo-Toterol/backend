@@ -76,7 +76,7 @@ for(int i = 3; i >= 0; i--)
 
     }
 
-    public static void Exercicios5()
+    public static void Exercicio5()
     {
         /*Crie um array de 10 inteiros. Percorra o array e conte quantos números são pares e quantos são ímpares.*/
 
@@ -98,7 +98,7 @@ for(int i = 0; i < numeros.Length; i++)
 Console.WriteLine($"Existem {numeros_par} números par e {numeros_impar} números impar neste array.");
     }
 
-    public static void Exercicios6()
+    public static void Exercicio6()
     
     {
        /* Crie um programa de lista de compras usando List<string>. O programa deve:
@@ -158,7 +158,7 @@ Boolean ativo = false;
 
     }
 
-    public static void Exercicios7()
+    public static void Exercicio7()
     {
         /*Crie uma List<int> com 10 números variados (positivos e negativos). 
         Em seguida, crie duas novas listas: uma apenas com os positivos e outra apenas com os negativos.*/
@@ -191,7 +191,7 @@ Boolean ativo = false;
         }
     }
 
-    public static void Exercicios8()
+    public static void Exercicio8()
     {
         /*Crie uma nova lista que contenha apenas os nomes sem repetição. Não use Distinct() — faça a lógica manualmente com Contains().*/
 
@@ -212,7 +212,7 @@ Boolean ativo = false;
         }
     }
 
-    public static void Exercicios9()
+    public static void Exercicio9()
     {
         /*Crie uma List<string> para armazenar nomes de alunos. Faça um menu interativo no console:*/
 
@@ -281,7 +281,7 @@ Boolean ativo = false;
         } while (!ativo);
     }
 
-    public static void Exercicios10()
+    public static void Exercicio10()
     {
         /*Crie uma List<int> com 8 números desordenados. Faça o seguinte:
 
@@ -318,6 +318,34 @@ Peça ao usuário um número e use IndexOf() para informar a posição dele, ou 
         {
             System.Console.WriteLine("O número não existe na lista.");
         }
+    }
+
+    public static void Exercicio11()
+    {
+        /*Crie um array int[] numeros = { 1, 2, 3, 4, 5 };
+Converta para List<int> usando new List<int>(numeros)
+Adicione os números 6, 7 e 8 na lista
+Converta de volta para array usando ToArray()
+Exiba o array final*/
+
+    int[] numeros = { 1, 2, 3, 4, 5 };
+    List<int> listaNumeros = new List<int>(numeros);
+
+    listaNumeros.Add(6);
+    listaNumeros.Add(7);
+    listaNumeros.Add(8);
+
+    int[] arrayNumeros = listaNumeros.ToArray();
+
+    foreach (var item in arrayNumeros)
+    {
+        System.Console.Write(item + " ");
+    }
+    }
+
+    public static void Exercicio12()
+    {
+        
     }
 }
 
