@@ -16,21 +16,22 @@ List<Produto> produtos = new List<Produto>
     new Produto {Id = 2, Nome = "Produto C", Preco = 13.99m, Ativo = true},
 };
 
-app.MapGet("/produtos", () => produtos
+app.MapGet("/produtos", () =>
 {
-    return Results.ok(produtos);
+    return Results.Ok(produtos);
 });
 
-app.MapGet("/produtos/{id:int}"), {int id} =>
+app.MapGet("/produtos/{id:int}", (int id) =>
 {
-    Produto produto = null;
+    Produto? produto = null;
     for (int i = 0; i < produtos.Count; i++)
     {
         if ( produtos[i].Id == id)
         {
             produto = produtos[i];
         }
-        if (produtos == null)
+    }
+        if (produto == null)
         {
             return Results.NotFound(); 
         }
@@ -39,6 +40,6 @@ app.MapGet("/produtos/{id:int}"), {int id} =>
             return Results.Ok(produto);
         }
     }
-}
+);
 
 app.Run();

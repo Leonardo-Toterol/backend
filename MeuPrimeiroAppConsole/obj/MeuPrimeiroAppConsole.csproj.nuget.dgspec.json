@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Coding\\Projects\\AS\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj": {}
+    "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj": {}
   },
   "projects": {
-    "F:\\Coding\\Projects\\AS\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj": {
+    "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Coding\\Projects\\AS\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj",
+        "projectUniqueName": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj",
         "projectName": "MeuPrimeiroAppConsole",
-        "projectPath": "F:\\Coding\\Projects\\AS\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj",
-        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "F:\\Coding\\Projects\\AS\\MeuPrimeiroAppConsole\\obj\\",
+        "projectPath": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\MeuPrimeiroAppConsole\\MeuPrimeiroAppConsole.csproj",
+        "packagesPath": "C:\\Users\\RH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\MeuPrimeiroAppConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RH\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"

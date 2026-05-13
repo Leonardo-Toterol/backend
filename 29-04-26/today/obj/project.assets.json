@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aluno.torres\\.nuget\\packages\\": {}
+    "C:\\Users\\RH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj",
+      "projectUniqueName": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\29-04-26\\today\\today.csproj",
       "projectName": "today",
-      "projectPath": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj",
-      "packagesPath": "C:\\Users\\aluno.torres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\obj\\",
+      "projectPath": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\29-04-26\\today\\today.csproj",
+      "packagesPath": "C:\\Users\\RH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RH\\AppData\\Roaming\\Thunder\\F\\backend\\29-04-26\\today\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aluno.torres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\RH\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
