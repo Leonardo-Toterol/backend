@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj": {}
+    "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj": {}
   },
   "projects": {
-    "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj": {
+    "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj",
-        "projectName": "today",
-        "projectPath": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\today.csproj",
+        "projectUniqueName": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
+        "projectName": "Livros",
+        "projectPath": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
         "packagesPath": "C:\\Users\\aluno.torres\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\29-04-26\\today\\obj\\",
+        "outputPath": "c:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno.torres\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
