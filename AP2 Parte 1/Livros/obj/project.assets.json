@@ -499,19 +499,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aluno.torres\\.nuget\\packages\\": {}
+    "C:\\Users\\Leonardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
       "projectName": "Livros",
-      "projectPath": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
-      "packagesPath": "C:\\Users\\aluno.torres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno.torres\\Documents\\Leo\\backend\\AP2 Parte 1\\Livros\\obj\\",
+      "projectPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\AP2 Parte 1\\Livros\\Livros.csproj",
+      "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leonardo\\Desktop\\Coding\\Facul\\backend\\AP2 Parte 1\\Livros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aluno.torres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
